@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>FastMarket | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+    <div class="logo"><a href="#"><img src="img/logo.png"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </nav>
+    <div class="img-container">
+        <div class="layer">
+            <div class="inner-container">
+                <h1>How can we help?</h1>
+                <h5>We are still at your service</h5>
+                <a class="btn" href="#section1">Contact Us</a>
+            </div>
+        </div>
+    </div>
+        <div class="contact-form" id="section1">
+            <div class="service-img">
+                <div class="service-img-icon"><img src="img/customer-service.png" alt="customerservice.jpeg"></div>
+                <div class="service-img-icon"><img src="img/inquiry.png" alt="inquiry.jpeg"></div>
+                <div class="service-img-icon"><img src="img/payment.png" alt="payment.jpeg"></div>
+            </div>
+            <div class="layout-2-sides">
+                <div class="left-side">
+                    <h2>Contact us</h2>
+                    <p>Hypermarket FastMarket</p>
+                    <p>Lot 1828, Seksyen 17, Bandar Kota Bharu</p>
+                    <p>15050 Kota Bharu, Kelantan</p>
+                    <p>Mon - Sun: 10:30 am - 10:00 pm</p>
+                    <p style="color: #db545a;">customerservice@fastmarket.com</p><br>
+
+                    <div class="follow-us">
+                        <h2>Follow us</h2>
+                        <a href="#"><img src="img/fb.png" alt="Facebook.png"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/ig.png" alt="Instagram.png"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/twt.png" alt="Twitter.png"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="#"><img src="img/yt.png" alt="Youtube.png"></a><br>
+                        <p>&#169 2021 Privacy Policy</p>
+                    </div>
+                </div>
+                
+                <div class="right-side">
+                    <form action="report-servlet" method="POST">
+                    <h2>Please fill in the details below</h2>
+                        <div id="name">
+                            <label class="name">Name</label><br>
+                            <input placeholder="First name" class="fname" type="text" name="fname">
+                            <input placeholder="Last name" class="lname" type="text" name="lname"><br><br>
+                        </div>
+
+                        <label class="phone-number">Phone Number</label><br>
+                        <input placeholder="Enter phone number (e.g 0123456789)" class="phonenumber" type="text" name="phonenumber"><br><br>
+
+                        <label class="email-address">Email</label><br>
+                        <input placeholder="Enter a valid email address" class="emailaddress" type="text" name="emailaddress"><br><br>
+
+                        <label class="service-category">Select service category:</label><br>
+                        <select class="service" name="service" id="service" form="serviceform">
+                            <option disabled="disabled" selected="selected">-- Choose option --</option>
+                            <option value="Product">Product</option>
+                            <option value="Return & Refund">Return & Refund</option>
+                            <option value="Warranty">Warranty</option>
+                            <option value="Others">Others</option>
+                        </select><br><br>
+
+                        <label class="prefer-contacted">Prefer contacted by:</label><br>
+                        <input class="phone" type="radio" id="phone" name="prefer" value="phone">
+                        <label for="phone">Phone</label><br>
+                        <input class="email" type="radio" id="email" name="prefer" value="email">
+                        <label for="email">Email</label><br><br>
+
+                        <label class="item-price">Item price:</label><br>
+                        <input placeholder="Enter item price" class="price" type="text" name="price"><br><br>
+
+                        <label class="date-purchased">Date purchase item:</label><br>
+                        <input class="purchase" type="date" id="purchase" name="purchase"><br><br>
+
+                        <label class="describe-problem">Please describe your problem:</label><br>
+                        <textarea class="problem" id="problem" name="problem" rows="5" cols="30"></textarea><br><br>
+
+                        <input type="submit" class="submit-btn" value="SUBMIT">
+                    </form>
+                </div>
+            </div>        
+        </div>
+</body>
+<footer class="footer">
+    <p>&#169 2021 <span style="font-weight: bold;">CSC584 Individual Assignment 1. </span>All rights reserved. Fully developed by <span style="font-weight: bold;">Ahmad Nasaiei</span></p>
+</footer>
+</html>
